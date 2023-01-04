@@ -7,7 +7,9 @@ const CompetitionList: React.FC = () => {
     return (
         <>
             <ul>
-                <li>{"18 Again"}</li>
+                <li>
+                    <Link to="/comp/18-again">{"18 Again"}</Link>
+                </li>
             </ul>
         </>
     );
