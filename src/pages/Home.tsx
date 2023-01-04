@@ -1,14 +1,14 @@
-import BasicThreadList from '../components/BasicThreadList';
+import CompetitionList from '../components/CompetitionList';
 import React from 'react';
 
 const Home: React.FC = () => {
     return (
         <>
-            <h3>
-                {"Welcome to CVWO's sample react app! Here's a basic list of forum threads for you to experiment with."}
-            </h3>
+            <h2>{"Welcome to PIU Score Submitter"}</h2>
             <br />
-            <BasicThreadList />
+            {"Here are the list of competitions that you can participate:"}
+            <br />
+            <CompetitionList />
         </>
     );
 };
