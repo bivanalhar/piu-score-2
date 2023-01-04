@@ -1,5 +1,6 @@
 import Home from './pages/Home';
 import EighteenAgain from './pages/18_Again';
+import NavigationBar from './components/NavigationBar';
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <div className="App">
             <ThemeProvider theme={theme}>
                 <BrowserRouter>
+                    <NavigationBar />
                     <Routes>
                         <Route path="/comp/18-again" element={<EighteenAgain />} />
                         <Route path="/" element={<Home />} />

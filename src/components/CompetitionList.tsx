@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom';
 
 const CompetitionList: React.FC = () => {
     return (
-        <>
-            <ul>
-                <li>
-                    <Link to="/comp/18-again">{"18 Again"}</Link>
-                </li>
-            </ul>
-        </>
+        <ol>
+            <li>
+                <Link to="/comp/18-again">{"18 Again"}</Link>
+            </li>
+        </ol>
     );
 };
 

@@ -92,7 +92,7 @@ const EighteenAgain: React.FC = () => {
             </div>
 
             <h2>Mechanics</h2>
-	        <ol type="1">
+	        <ol>
 	            <li>The game master will play a random set of 3 songs out of the 6 songs, and will provide a sum of the 3 songs' scores to the players.</li>
 	            <li>
 	                The players can choose any 3 songs from the list of 6 songs to challenge the game master's score.
@@ -108,18 +108,18 @@ const EighteenAgain: React.FC = () => {
 	        <h2>Objectives</h2>
 	        Attain the highest value of <b>(sum of player's 4 songs) - (sum of game master's 3 songs)</b>
 
-            <div style={{ width: '60vw'}}>
+            <div style={{ width: '60vw' }}>
                 <Card variant="outlined" style={{backgroundColor: "#8D90F4"}}>
                     <CardContent>
                         <Typography component="p">
                             <strong>Example</strong>:
-                            <ul>
+                            <ol>
                                 <li>The game master plays Yeo Rae A, Mad5cience and Papa Gonzales, racking a total score of 270% (out of 300%).</li>
                                 <li>BEEFUN chooses First Love, Blazing and Jam O Beat as his 3 songs.</li>
                                 <li>The game master then assigns Rooftop S16 to him.</li>
                                 <li>BEEFUN's total score from playing the 4 songs is 360% (out of 400%).</li>
                                 <li>BEEFUN's final score will be 360% - 270% = 90%.</li>
-                            </ul>
+                            </ol>
                         </Typography>
                     </CardContent>
                 </Card>
@@ -139,10 +139,10 @@ const EighteenAgain: React.FC = () => {
             <h2>Other Information</h2>
             <p>
                 Additional information for the mini-challenge are as follows:
-                <ul>
+                <ol>
                     <li>Players are allowed to attempt each of the UCS as many as possible within the time period, however only the one with the highest score for each UCS will be calculated towards the final score</li>
                     <li>Currently, there is no requirement to upload the photo of your scores. However, please fill in the form provided <a href="{{ url_for('score') }}">here</a> honestly. </li>
-                </ul>
+                </ol>
                 Enjoy the competition, and may the odds be ever in your favor.
             </p>
         </div>
