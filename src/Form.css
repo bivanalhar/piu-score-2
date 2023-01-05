@@ -1,0 +1,45 @@
+.Form {
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(80deg, white, #14C4E4 48%, #1485E4);
+}
+
+.Form, .login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.link-btn {
+    background: none;
+    color: black;
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    background: rgb(109, 116, 205);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
