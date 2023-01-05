@@ -6,14 +6,28 @@
     background-image: linear-gradient(80deg, white, #14C4E4 48%, #1485E4);
 }
 
-.Form, .login-form {
+.Form2 {
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: rgb(218, 102, 102);
+}
+
+.Form, .Form2, .login-form, .login-form-2{
     display: flex;
     flex-direction: column;
 }
 
 .login-form {
     padding: 5rem;
-    border: 1px solid white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.login-form-2 {
+    padding: 5rem;
+    border: 3px solid black;
     border-radius: 10px;
 }
 

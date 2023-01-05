@@ -9,6 +9,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors';
+import SubmitScore from './pages/SubmitScore';
 
 const theme = createTheme({
     palette: {
@@ -28,6 +29,7 @@ const App: React.FC = () => {
                         <Route path="/" element={<Home />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
+                        <Route path="/submit-score" element={<SubmitScore />} />
                     </Routes>
                 </BrowserRouter>
             </ThemeProvider>

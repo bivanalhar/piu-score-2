@@ -9,8 +9,8 @@ const EighteenAgain: React.FC = () => {
             <strong>{"Mini-Challenge #6"}</strong>{": 18 Again (X'mas/New Year Special Event)"}<br/>
 	        <strong>{"Timeline"}</strong>{": 2022.12.19 ~ 2023.01.15"}<br/>
 	        <strong>{"Scoring System"}</strong>{": EX-Score"}<br/>
-	        <div style={{ width: '60vw'}}>
-                <Card variant="outlined" style={{backgroundColor: "#5EDC9D"}}>
+	        <div>
+                <Card variant="outlined" style={{backgroundColor: "#5EDC9D", width: '60vw'}}>
                     <CardContent>
                         <Typography>
                             EX-Score : <b>(perfect + 0.8*great + 0.5*good + 0.1*bad) / (perfect + great + good + bad + miss)</b>
@@ -21,8 +21,8 @@ const EighteenAgain: React.FC = () => {
 
             <h2>Featured UCS</h2>
 	        <p>Challenge the game master on the UCS that he himself makes! These UCS-es target different skillsets in PIU and will definitely help you improve</p>
-	        <div style={{ width : "80%", display: 'flex', margin: "auto", padding : 30}}>
-                <Card variant="outlined" style={{ width : '70vw' }}>
+	        <div style={{ width : "80%", display: 'flex', margin: "auto", padding : 15}}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/wZBeiynarzM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -33,7 +33,7 @@ const EighteenAgain: React.FC = () => {
                     </CardContent>
                 </Card>
 
-                <Card variant="outlined" style={{ width : '70vw' }}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/2p6alD2ND4k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -44,7 +44,7 @@ const EighteenAgain: React.FC = () => {
                     </CardContent>
                 </Card>
 
-                <Card variant="outlined" style={{ width : '70vw' }}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/VO2lq-Pa8ag" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -56,8 +56,8 @@ const EighteenAgain: React.FC = () => {
                 </Card>
             </div>
 
-            <div style={{ width : "80%", display: 'flex', margin: "auto"}}>
-                <Card variant="outlined" style={{ width : '70vw' }}>
+            <div style={{ width : "80%", display: 'flex', margin: "auto", padding: 15}}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/cf9jLb-8v88" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -68,7 +68,7 @@ const EighteenAgain: React.FC = () => {
                     </CardContent>
                 </Card>
 
-                <Card variant="outlined" style={{ width : '70vw' }}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/2gYf6CfxTNY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -79,7 +79,7 @@ const EighteenAgain: React.FC = () => {
                     </CardContent>
                 </Card>
 
-                <Card variant="outlined" style={{ width : '70vw' }}>
+                <Card variant="outlined" style={{ width : '1000px' }}>
                     <CardContent>
                         <Typography component="p">
                             <iframe src="https://www.youtube.com/embed/6SUMFzIhyss" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -108,8 +108,8 @@ const EighteenAgain: React.FC = () => {
 	        <h2>Objectives</h2>
 	        Attain the highest value of <b>(sum of player's 4 songs) - (sum of game master's 3 songs)</b>
 
-            <div style={{ width: '60vw' }}>
-                <Card variant="outlined" style={{backgroundColor: "#8D90F4"}}>
+            <div style={{ width: '60vw' , padding: 0, marginBottom: 0, marginTop: 0}}>
+                <Card variant="outlined" style={{backgroundColor: "#A2A7F8"}}>
                     <CardContent>
                         <Typography component="p">
                             <strong>Example</strong>:

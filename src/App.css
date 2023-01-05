@@ -50,13 +50,13 @@
 }
 
 .nav {
-    background-color: aqua;
+    background-color: rgb(13, 182, 182);
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .site-title {
